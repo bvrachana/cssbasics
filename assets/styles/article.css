@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+ .article p{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5;
+    word-spacing: 10;
+    line-height: 2;
+    padding: 10px;
+    text-indent: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+    
+    
+}
+.article h2{
+    color: rgb(224, 49, 18);
+    background-color: #fff;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+ /*assignment.html */
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  img{
+    width: 100px;
+    height: 90px;
+  }
+
+  nav {
+    background-color: #1b5ee3; /* Facebook blue */
+    color: #fff; /* White text */
+    padding: 30px;
+    display:inline-block;
+    width: 1500px;
+    
+  
+  }
+
+  nav ul {
+    padding: 50px;
+    display: flex;
+    float: right;
+    gap: 30px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #373b32;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  nav ul li:hover{
+    background-color: #17cff4a0;
+    border-radius: 100px;
+    padding: 20px;
+    cursor: pointer;
+    color: #373b32;
+}

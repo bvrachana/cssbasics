@@ -1,0 +1,318 @@
+.combination, .combination2{
+    background-color: #b18d8d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.combination + h3{
+    background-color: firebrick;
+    padding: 30px;
+}
+.combination + h3 + p + h3 + [href]{
+    background-color: #6665ba;
+    padding: 30px;
+    color: #000;
+}
+/* general.html */
+.combination2 ~ h3{
+    background-color: #db6dad;
+    padding: 30px;
+}
+.combination2 ~ p{
+    background-color: #35f00b8e;
+    padding: 30px;
+    color: #000;
+}
+
+/* color.html */
+.cssColor{
+    background-color: #56acd2;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.cssColor1{
+    background-color: chocolate;  /* color keyword values */
+    border: 4px solid black;
+    color: white;
+
+}
+.cssColor2{
+   background-color: #ed0b7cea;
+   border: 30px solid #221feb50;
+   color: white;
+}
+.cssColor3{
+    background-color: rgb(15 70 13); /* color keyword value*/
+   border: 30px solid rgb(59, 15, 100, 0.5); /*red, green, blue, alpha */
+   color: rgb(255, 255, 255);
+}
+
+/* textcssproperty.html */
+.cssFont p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight: 900 ; /*100-900 bold bolder lighter*/
+    font-size: 25px;
+    font-variant: small-caps;
+}
+.cssText p{
+    font-size: 20px;
+    text-align: center;
+    text-transform:capitalize;
+    line-height:2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    text-indent: 300px; /*it will give space at left for first line*/
+}
+.cssText h2{
+    text-decoration: underline;
+}
+/*navigation.html*/
+nav img{
+    width: 60px;
+}
+nav ul li{
+    display: inline-block;
+   padding: 5px 20px;
+   transition: 0.7s;
+}
+nav ul li:hover{
+    background-color: #000000;
+    border-radius: 100px;
+}
+nav ul{
+    float: right;
+}
+nav ul li a{
+text-decoration: none;
+font-size: 20px;
+color: #3a3838;
+}
+nav ul li:hover a{
+    color: white;
+}
+nav{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* list.html */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+    color: #fff;
+    
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.list-marker-position>ol>li::marker{  /* pseudo class selector*/
+    color: yellow;
+    font-size: 50px;
+    font-weight: 900;
+}
+/* css basicsimages.html */
+.list-icons ul li:nth-child(1)::marker{
+    content: "😍";
+
+}
+.list-icons ul li:nth-child(2)::marker{
+    content: "😉";
+
+}
+.list-icons ul li::marker{
+    content: "😻";
+
+}
+
+
+/* cssbasictags.html */
+.list-images>ul>li{
+    list-style-image: url(../check.png);
+}
+
+
+/* p4basics.html */
+.list-shortand>ul>li{
+    background-color: #0a9ec3;
+    padding: 30px;
+    margin-bottom: 20px;
+   /* list-style-type: none;
+    list-style-position: inside;
+    list-style-image: url('../check.png'); */
+    list-style: circle inside url('../check.png');
+}
+/* tablecss.html */
+.empty-cell-table{
+    empty-cells: hide;
+}
+
+
+/* p6 table.css */
+.odd-even-table, .odd-even-table th, .odd-even-table td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+.odd-even-table tr:nth-child(even){
+    background-color: #1ba5d7;
+}
+.odd-even-table tr:nth-child(odd){
+    background-color: #db6dad;
+}
+.odd-even-table tr:hover{
+    background-color: #807d7d;
+}
+.odd-even-table th{
+    background-color: #0c0b0b;
+    color: white;
+}
+.odd-even-table caption{
+    color: #808080;
+    font-weight: 900;
+    padding: 20px;
+    background-color: #761966;
+    caption-side: bottom;
+}
+.odd-even-table td{
+    height: 100px;
+    vertical-align: middle;
+}
+/* p7table.html */
+.table-layout, .table-layout th, .table-layout td{
+    border: 2px solid #808080;
+    border-collapse: collapse;
+    padding: 20px;
+}
+.table-layout{
+    width: 400px;
+    table-layout: fixed;
+}
+.table-layout th, .table-layout td{
+  overflow:auto;
+}
+
+
+/* p8table.html */
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+header{
+background-color: #726a6a;
+padding: 10px;
+}
+header nav img{
+    width: 50px;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+   /* padding: 10px; */
+   padding: 16px;
+   transition: 1s;
+}
+header nav ul li a{
+    color: rgb(46, 43, 43);
+    text-decoration: none;
+}
+header nav ul li:hover{
+    background-color: #9f2b1e;
+}
+header nav ul li button{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background:linear-gradient(45deg, #b70627, #6a0ab3);
+    color: #fff;
+}
+/* banner.html*/
+.bannerCommonClass{
+    min-height: 60vh;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+.bannerCommonClass>h1{
+    font-size: 50px;
+}
+.banner1{
+background-color: rgb(135, 13, 13);
+}
+.btns{
+    margin-top: 30px;
+}
+.btns button{
+    border: none;
+    padding: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btns button:nth-child(1){
+    background-color: #cc2323;
+    color: #fff;
+}
+.btns button:nth-child(2){
+    background-color: #0a9ec3;
+}
+
+assignmentbanner.html
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #3498db; /* Change the color as needed */
+    color: #ffffff; /* Change the text color as needed */
+    text-align: center;
+    padding: 10px;
+}
+
+.banner {
+    background-color: #c8157a; /* Change the color as needed */
+    color: #ffffff; /* Change the text color as needed */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+    
+}
+.btn button{
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+/* p10.html */
+.banner2{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-K8N16LRGfsHmnP5cvqjc0Dvn3Nk_Rp_5A&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+ min-width: 100vw;
+    letter-spacing: 3px;
+    font-weight:900;
+    word-spacing: 4px;
+    line-height: 2;
+}

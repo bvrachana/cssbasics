@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .combination{
+            background-color: gray;
+            color: white;
+            padding: 20px;
+            }
+            .combination>h3{
+                color: red;
+            }
+            .combination>p{
+                color: yellow;
+            }
+            .combination>div{
+                background-color: aliceblue;
+                padding: 30px;
+                color: #000;
+            }
+            .combination>div>h3, .combination>div>p{
+                color: rgb(34, 46, 46);
+                padding: 10px;
+                background-color: aquamarine;
+            }
+    </style>
+</head>   
+ <body>
+        <center>
+            <h1>There are 4 different combinations in css...!</h1>
+        </center>
+        <hr>
+        <ol>
+            <li>Descendent Selector(USING SPACE)</li>
+            <li>Child Selector (USING > SYMBOL)</li>
+            <li>Adjacent Selector(USING + SYMBOL)</li>
+            <li>General Sibling Selector(USING ~ SYMBOL)</li>
+    
+        </ol>
+        <hr>
+        <h1>Child Selector(USING > SYMBOL)</h1>
+         <hr>
+         <section class="combination" id="rachana">
+            <h3>FIRST H3 TAG....!(child element)</h3>
+            <p>First paragraph...!(child element)</p>
+            
+            <h3>FIRST H3 TAG....!(child element)</h3>
+            <p>First paragraph...!(child element)</p>
+    
+            <h3>FIRST H3 TAG....!(child element)</h3>
+            <p>First paragraph...!(child element)</p>
+    
+            <div>
+             <h3>FIRST H3 TAG....!(child element)</h3>
+            <p>First paragraph...!(child element)</p>
+            </div>
+    
+            <h3>FIRST H3 TAG....!(child element)</h3>
+            <p>First paragraph...!(child element)</p>
+         </section>
+    
+    </body>  
+</html>
