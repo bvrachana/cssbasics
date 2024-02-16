@@ -12,8 +12,6 @@ body {
     text-indent: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
-    
-    
 }
 .article h2{
     color: rgb(224, 49, 18);
@@ -52,7 +50,7 @@ body {
   }
 
   nav a {
-    text-decoration: none;
+    text-decoration:none;
     color: #373b32;
     font-weight: bold;
     font-size: 30px;

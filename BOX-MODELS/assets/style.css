@@ -29,7 +29,6 @@ border-radius: 5px;
 }*/
 .cssBorder>h1{
     padding: 20px;
-
 }
 .cssBorder>h1:nth-child(1){
     border: 50px ridge red;

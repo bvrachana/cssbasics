@@ -23,7 +23,6 @@
     padding: 30px;
     color: #000;
 }
-
 /* color.html */
 .cssColor{
     background-color: #56acd2;
@@ -38,7 +37,7 @@
 
 }
 .cssColor2{
-   background-color: #ed0b7cea;
+   background-color: #f80880ea;
    border: 30px solid #221feb50;
    color: white;
 }
@@ -47,7 +46,6 @@
    border: 30px solid rgb(59, 15, 100, 0.5); /*red, green, blue, alpha */
    color: rgb(255, 255, 255);
 }
-
 /* textcssproperty.html */
 .cssFont p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -97,29 +95,25 @@ nav{
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* list.html */
+/*list.html*/
 .list-marker-position>ol>li{
-    background-color: teal;
-    padding: 20px;
+    background-color: #0adede;
+    padding:20px;
     margin-bottom: 20px;
     list-style-position: inside;
     color: #fff;
-    
 }
 .list-marker-position>ol>li>a{
     color: #fff;
     text-decoration: none;
-    
 }
-
 .list-marker-position>ol>li::marker{  /* pseudo class selector*/
-    color: yellow;
+    color: rgb(255, 255, 0);
     font-size: 50px;
     font-weight: 900;
 }
-/* css basicsimages.html */
-.list-icons ul li:nth-child(1)::marker{
+/* css basicicons.html */
+.list-icons ul :nth-child(1)::marker{
     content: "😍";
 
 }
@@ -131,14 +125,10 @@ nav{
     content: "😻";
 
 }
-
-
 /* cssbasictags.html */
 .list-images>ul>li{
     list-style-image: url(../check.png);
 }
-
-
 /* p4basics.html */
 .list-shortand>ul>li{
     background-color: #0a9ec3;
@@ -153,20 +143,17 @@ nav{
 .empty-cell-table{
     empty-cells: hide;
 }
-
-
 /* p6 table.css */
 .odd-even-table, .odd-even-table th, .odd-even-table td{
     border-collapse: collapse;
     border: 1px solid black;
     padding: 20px;
-
 }
 .odd-even-table tr:nth-child(even){
     background-color: #1ba5d7;
 }
 .odd-even-table tr:nth-child(odd){
-    background-color: #db6dad;
+    background-color: hsla(325, 62%, 55%, 0.441);
 }
 .odd-even-table tr:hover{
     background-color: #807d7d;
@@ -248,7 +235,7 @@ header nav ul li button{
     font-size: 50px;
 }
 .banner1{
-background-color: rgb(135, 13, 13);
+background-color: rgb(227, 12, 12);
 }
 .btns{
     margin-top: 30px;
@@ -265,10 +252,10 @@ background-color: rgb(135, 13, 13);
     color: #fff;
 }
 .btns button:nth-child(2){
-    background-color: #0a9ec3;
+    background-color: #09b4de;
 }
 
-assignmentbanner.html
+/*assignmentbanner.html*/
 body {
     margin: 0;
     padding: 0;
@@ -283,7 +270,7 @@ header{
 }
 
 .banner {
-    background-color: #c8157a; /* Change the color as needed */
+    background-color: #e11689; /* Change the color as needed */
     color: #ffffff; /* Change the text color as needed */
     text-align: center;
     padding: 20px;
@@ -305,14 +292,14 @@ header{
 /* p10.html */
 .banner2{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-K8N16LRGfsHmnP5cvqjc0Dvn3Nk_Rp_5A&usqp=CAU);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    min-height: 100vh;
- min-width: 100vw;
-    letter-spacing: 3px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height:100vh;
+    min-width:100vw;
+    letter-spacing:3px;
     font-weight:900;
-    word-spacing: 4px;
-    line-height: 2;
+    word-spacing:4px;
+    line-height:2;
 }
